@@ -174,11 +174,14 @@ header {
     font-weight: 900;
     transition: all .4s;
 }
-.btn:hover{
+.btn:focus{
     -webkit-animation: shadow-pop-tl 0.3s linear both;
     animation: shadow-pop-tl 0.3s linear both;
 }
-
+.btn-white:focus{
+   color: #bc2e3a;
+   background-color: #171717;
+}
  @-webkit-keyframes shadow-pop-tl {
     0% {
       box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;

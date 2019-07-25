@@ -33,21 +33,26 @@
 /* BUTTONS */
 @media(max-width:900px) {
     .btn {
-        font-size: 1.5vw;
-        padding: 0.7vw 1.6vw;
+        font-size: 1.7vw;
+        padding: 0.8vw 1.7vw;
     }
 }
-
-@media(max-width:500px) {
+@media(max-width:700px) {
     .btn {
         font-size: 1.8vw;
-        padding: 1vw 1.9vw;
+        padding: 0.9vw 1.8vw;
+    }
+}
+@media(max-width:500px) {
+    .btn {
+        font-size: 2vw;
+        padding: 1.1vw 2vw;
     }
 }
 @media(max-width:400px) {
     .btn {
-        font-size: 2vw;
-        padding: 1.15vw 2.2vw;
+        font-size: 2.4vw;
+        padding: 1.3vw 2.35vw;
     }
 }
 
@@ -526,7 +531,7 @@
 ..............*/
 @media(max-width:1200px){
     .footer-socials__item i {
-        font-size: 1.25rem;
+        font-size: 1.35rem;
     }
 }
 @media(max-width:955px){
@@ -549,7 +554,7 @@ font-size: 0.78rem;
   }
   @media(max-width:767px){
       footer .wrap{
-        width: 95%;
+        width: 100%;
       }
 .footer-info__item{
     text-align: center;
@@ -576,10 +581,16 @@ font-size: 0.78rem;
     .footer__copyright{
         font-size: 1.2rem;
     }
+    .footer-socials__item i {
+        font-size: 1.4rem;
+    }
 }
 @media(max-width:410px){
     .footer__copyright{
         font-size: 1.14rem;
+    }
+    .footer-socials__item i {
+        font-size: 1.45rem;
     }
 }
 /* FOR SCREEN > 1700px */

@@ -553,28 +553,27 @@ font-size: 0.78rem;
         }
   }
   @media(max-width:767px){
-      footer .wrap{
-        width: 100%;
-      }
-.footer-info__item{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 .footer__icon{
-    padding-bottom: 1vw;
-    font-size: 5vw;
+    font-size: 5.5vw;
+}
+.footer-info{
+    padding-left: 0;
+}
+.footer-info__item{
+    justify-content: center;
+    padding-right: 0;
+}
+.footer-info__item:last-of-type{
+    padding-left: 12.5vw;
 }
     .footer-info__item p{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     }
     .footer-info__content span{
-        font-size: 1.65rem;
+        font-size: 1.35rem;
     }
-    .footer__title{
-       padding-left: 5vw;
-       
+    .footer-socials__item i {
+        font-size: 1.4rem;
     }
 }
 @media(max-width:510px){
@@ -582,7 +581,7 @@ font-size: 0.78rem;
         font-size: 1.2rem;
     }
     .footer-socials__item i {
-        font-size: 1.4rem;
+        font-size: 1.45rem;
     }
 }
 @media(max-width:410px){
@@ -590,7 +589,7 @@ font-size: 0.78rem;
         font-size: 1.14rem;
     }
     .footer-socials__item i {
-        font-size: 1.45rem;
+        font-size: 1.5rem;
     }
 }
 /* FOR SCREEN > 1700px */

@@ -424,9 +424,6 @@
     .slider__item img {
         width: 40vw;
     }
-    .slider {
-        height: 50vh;
-    }
     .previous {
         border-top: 30px solid transparent;
         border-right: 30px solid #424240;
@@ -447,9 +444,6 @@
     .slider__item img {
         width: 45vw;
     }
-    .slider {
-        height: 45vh;
-    }
     .previous {
         border-top: 25px solid transparent;
         border-right: 25px solid #424240;
@@ -464,7 +458,7 @@
 }
 @media(max-width:430px){
     .slider {
-        height: 40vh;
+        height: 45vh;
     }
     .previous {
         top: 37%;
@@ -482,7 +476,7 @@
 }
 @media(max-width:360px){
     .slider {
-        height: 35vh;
+        height: 40vh;
     } 
     .previous {
         top: 31%;

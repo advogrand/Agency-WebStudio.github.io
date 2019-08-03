@@ -366,13 +366,13 @@
 .............*/
 @media(max-width:1192px){
     .slider {
-        height: 60vh;
+        height: 70vh;
     }
    
 }
 @media(max-width:992px){
     .slider {
-        height: 58vh;
+        height: 67vh;
     }
     .previous {
         border-top: 35px solid transparent;
@@ -391,7 +391,7 @@
         width: 37vw;
     }
     .slider {
-        height: 55vh;
+        height: 65vh;
     }
     .previous {
         top: 33%;
@@ -404,9 +404,6 @@
 @media(max-width:740px){
     .slider__item img {
         width: 39vw;
-    }
-    .slider {
-        height: 47vh;
     }
     .previous {
         top: 33%;
@@ -428,7 +425,7 @@
         width: 40vw;
     }
     .slider {
-        height: 40vh;
+        height: 50vh;
     }
     .previous {
         border-top: 30px solid transparent;
@@ -451,7 +448,7 @@
         width: 45vw;
     }
     .slider {
-        height: 35vh;
+        height: 45vh;
     }
     .previous {
         border-top: 25px solid transparent;
@@ -467,7 +464,7 @@
 }
 @media(max-width:430px){
     .slider {
-        height: 30vh;
+        height: 40vh;
     }
     .previous {
         top: 37%;
@@ -485,7 +482,7 @@
 }
 @media(max-width:360px){
     .slider {
-        height: 27vh;
+        height: 35vh;
     } 
     .previous {
         top: 31%;

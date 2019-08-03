@@ -388,7 +388,6 @@ header {
 }
 
 .steps-of-work__item img {
-    max-width: 400px;
     width: 22vw;
 }
 
@@ -552,7 +551,6 @@ header {
 }
 
 .reviews__img {
-    max-width: 415px;
     width: 29vw;
     padding-right: 2vw;
 }

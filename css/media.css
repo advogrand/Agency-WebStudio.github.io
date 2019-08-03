@@ -174,9 +174,11 @@
 /*.............. 
     WHO WE ARE
  ..............*/
-@media(max-width:992px) {
+@media(max-width:991px) {
     .who-we-are {
         text-align: center;
+        background: url("..//images/backgrounds/who-we-are-bg-mobile.png") no-repeat right top;
+        background-size: auto;
     }
 
     .who-we-are__title {
@@ -607,5 +609,15 @@ font-size: 0.78rem;
     }
     :root {
         font-size: 25px;
+    }
+    
+}
+
+@media(min-width:2100px){
+    body {
+        font-size: 27px;
+    }
+    :root {
+        font-size: 27px;
     }
 }

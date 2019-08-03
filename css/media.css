@@ -458,7 +458,7 @@
 }
 @media(max-width:430px){
     .slider {
-        height: 38vh;
+        height: 33.5vh;
     }
     .previous {
         top: 37%;
@@ -476,7 +476,7 @@
 }
 @media(max-width:360px){
     .slider {
-        height: 33vh;
+        height: 30vh;
     } 
     .previous {
         top: 31%;
